@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Vanness!</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Caveat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background Animation Elements -->
+    <div class="balloons">
+      <div class="balloon balloon-1"></div>
+      <div class="balloon balloon-2"></div>
+      <div class="balloon balloon-3"></div>
+      <div class="balloon balloon-4"></div>
+      <div class="balloon balloon-5"></div>
+    </div>
+
+    <div class="confetti">
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+      <div class="confetti-piece"></div>
+    </div>
+
+    <!-- Landing Page Section -->
+    <section class="landing-page" id="landingPage">
+      <!-- Birthday Heading -->
+      <div class="landing-container">
+        <h1 class="birthday-heading">Happy Birthday!</h1>
+
+        <!-- Profile Image -->
+        <div class="profile-image-container">
+          <img
+            src="attached_assets/ChatGPT Image 8 Jul 2025, 17.01.22_1751968918322.png"
+            alt="Vanness"
+            class="profile-image"
+            id="profileImage"
+          />
+        </div>
+
+        <!-- Welcome Card -->
+        <div class="welcome-card" id="welcomeCard">
+          <h2>Semoga hari ini penuh kebahagiaan!!</h2>
+          <button class="main-button" id="mainButton">Klik di sini</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cake Animation Section -->
+    <section class="cake-section" id="cakeSection">
+      <div class="cake-container">
+        <div class="cake-image">
+          <img
+            src="img/cake.gif"
+            alt="Happy Birthday Cake"
+            class="cake-img"
+            id="cakeImage"
+          />
+        </div>
+        <p class="cake-scroll-text">Scroll ke bawah yaa! 🎉</p>
+      </div>
+      <h2 class="cake-title">Happy Birthday Vanness! 🎉</h2>
+      <div class="scroll-hint-container">
+        <p class="scroll-hint">Ada ucapan-ucapan untuk Vanness baca!</p>
+      </div>
+    </section>
+
+    <!-- Birthday Messages Section -->
+    <section class="messages-section" id="messagesSection">
+      <div class="messages-container">
+        <div class="message-card" data-index="1">
+          <h3> 🎂 Ucapan #1</h3>
+          <p>
+            Selamat ulang tahun, Vanness! Semoga tahun ini membawa lebih banyak
+            kebahagiaan dan kesuksesan. Terima kasih telah menjadi teman yang
+            luar biasa!
+          </p>
+        </div>
+
+        <div class="message-card" data-index="2">
+          <h3>🎉 Ucapan #2</h3>
+          <p>
+            Semoga di hari yang spesial ini dipenuhi dengan tawa, cinta, dan
+            momen-momen indah.
+          </p>
+        </div>
+
+        <div class="message-card" data-index="3">
+          <h3>🎈 Ucapan #3</h3>
+          <p>
+            Semoga semua impian dan cita-cita vanness menjadi kenyataan. You
+            deserve all the best things in the world!
+          </p>
+        </div>
+
+        <div class="message-card" data-index="4">
+          <h3>🎁 Ucapan #4</h3>
+          <p>
+            Selamat bertambah usia yang ke 23! Semoga dengan bertambahnya umur,
+            bertambah pula kebijaksanaan, kebahagiaan, keberanian mengejar mimpi
+            dan berkah dalam hidup.
+          </p>
+        </div>
+
+        <div class="message-card" data-index="5">
+          <h3>🌟 Ucapan #5</h3>
+          <p>
+            Jangan pernah berhenti menjadi orang baik. Semoga kamu selalu
+            dikelilingi oleh orang-orang yang tulus dan penuh semangat positif.
+          </p>
+        </div>
+
+        <div class="message-card" data-index="6">
+          <h3>🎊 Ucapan #6</h3>
+          <p>
+            Semoga rezeki semakin lancar dan berkah, dari arah yang tak
+            disangka-sangka.
+          </p>
+        </div>
+
+        <div class="message-card" data-index="7">
+          <h3>💫 Ucapan #7</h3>
+          <p>
+            Semoga fokus dan konsistensinya tetap terjaga, bahkan saat keadaan
+            sedang sulit.
+          </p>
+        </div>
+
+        <div class="message-card" data-index="8">
+          <h3> 🔥 Ucapan #8</h3>
+          <p>
+            Semoga kamu selalu diberikan kekuatan untuk menghadapi setiap
+            tantangan yang datang.
+          </p>
+        </div>
+
+        <div class="message-card" data-index="9">
+          <h3> 🪩 Ucapan #9</h3>
+          <p>
+            Semoga kamu selalu percaya diri dengan kemampuan dan keputusanmu sendiri.
+          </p>
+        </div>
+
+        <div class="message-card" data-index="10">
+          <h3> 🥳 Ucapan #10</h3>
+          <p>
+            Yang terakhir tapi paling istimewa: Selamat ulang tahun, Vanness!
+            Semoga Tuhan selalu melindungi dan memberkahi perjalanan hidup. Have
+            a blessed year ahead! 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Audio Element -->
+    <audio id="birthdayAudio" preload="auto" loop>
+      <source src="audio/hbd.mp3" type="audio/mpeg" />
+      <!-- Fallback: We'll create a simple birthday melody using Web Audio API -->
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
